@@ -19,11 +19,10 @@
             "id": "86898cdfd330707d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "OBSIDIAN.md",
-                "mode": "source",
-                "source": false
+                "file": "first/.obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -94,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OBSIDIAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OBSIDIAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,13 +130,19 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "OBSIDIAN.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "0bb3a59ed3f7b3a1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -155,9 +158,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0887c3de928b9227",
+  "active": "86898cdfd330707d",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "OBSIDIAN.md"
+    "OBSIDIAN.md",
+    "Untitled.canvas"
   ]
 }
