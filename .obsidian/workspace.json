@@ -1,0 +1,166 @@
+{
+  "main": {
+    "id": "13edb4a8b9b89581",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e7d0793e7a0de40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d24db7a66d47b43a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d006bc3e4ea38d51",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9960a105b6e6cb4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42f568cc4222250a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c2f6cdde37990ceb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b616b2385f3bffcd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "0463e473a0aed8a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0ee37776560b8db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b11dafd3835c03f1",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
+          },
+          {
+            "id": "3627bd996a6a81ce",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9d78c056d6330e92",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3252cf4068755777",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "002045031ade582e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Company TIL/Vue/MIT 테크놀로지 리뷰 코리아 Vol 10 910월호：Boiling Planet： 새로운 기후 시대의 생존 방안.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "kr-book-info-plugin:Add Book Info": false
+    }
+  },
+  "active": "42f568cc4222250a",
+  "lastOpenFiles": [
+    "Company TIL/Vue/Untitled.canvas",
+    "Company TIL/Vue/MIT 테크놀로지 리뷰 코리아 Vol 10 910월호：Boiling Planet： 새로운 기후 시대의 생존 방안.md",
+    "props.md",
+    "Company TIL/GIMT/Untitled",
+    "Company TIL/Vue",
+    "Vue emit.md",
+    "Company TIL",
+    "Vue emit.md",
+    "UNTITLED.md",
+    "2023-10-12.md",
+    "Untitled 1.canvas"
+  ]
+}
