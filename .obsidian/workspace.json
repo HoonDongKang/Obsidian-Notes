@@ -19,10 +19,11 @@
             "id": "faf9c563db855f59",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "Company/.obsidian/workspace.json",
-                "staged": false
+                "file": "Company/Vue $emit & props.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Company/gimt list.canvas",
+                "file": "Company/Vue $emit & props.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Company/gimt list.canvas",
+                "file": "Company/Vue $emit & props.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Company/gimt list.canvas"
+                "file": "Company/Vue $emit & props.md"
               }
             }
           }
@@ -173,6 +174,7 @@
   },
   "active": "faf9c563db855f59",
   "lastOpenFiles": [
+    "Company/Vue $emit & props.md",
     "Company/Untitled.canvas",
     "Company/gimt list.canvas",
     "필독 개발자 온보딩 가이드 지속 가능한 소프트웨어와 원활한 협업 문화를 이해하는 프로페셔널 개발자의 탄생.md",
