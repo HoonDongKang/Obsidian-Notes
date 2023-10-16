@@ -19,14 +19,10 @@
             "id": "faf9c563db855f59",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "diff-view",
               "state": {
-                "file": "Company/gimt list.canvas",
-                "viewState": {
-                  "x": -70,
-                  "y": -100,
-                  "zoom": -0.29167445387769525
-                }
+                "file": "Company/.obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -175,7 +171,7 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "42f568cc4222250a",
+  "active": "faf9c563db855f59",
   "lastOpenFiles": [
     "Company/Untitled.canvas",
     "Company/gimt list.canvas",
