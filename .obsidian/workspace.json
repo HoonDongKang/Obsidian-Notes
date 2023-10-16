@@ -14,8 +14,24 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "faf9c563db855f59",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Company/gimt list.canvas",
+                "viewState": {
+                  "x": -70,
+                  "y": -100,
+                  "zoom": -0.29167445387769525
+                }
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,11 +100,20 @@
             }
           },
           {
+            "id": "b5a08323be5d0e8e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
             "id": "3627bd996a6a81ce",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Company/gimt list.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Company/gimt list.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,16 +153,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Company TIL/Vue/MIT 테크놀로지 리뷰 코리아 Vol 10 910월호：Boiling Planet： 새로운 기후 시대의 생존 방안.md"
+                "file": "Company/gimt list.canvas"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 543.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -151,6 +177,11 @@
   },
   "active": "42f568cc4222250a",
   "lastOpenFiles": [
+    "Company/Untitled.canvas",
+    "Company/gimt list.canvas",
+    "필독 개발자 온보딩 가이드 지속 가능한 소프트웨어와 원활한 협업 문화를 이해하는 프로페셔널 개발자의 탄생.md",
+    "Study",
+    "Company/OBSIDIAN.md",
     "Company TIL/Vue/Untitled.canvas",
     "Company TIL/Vue/MIT 테크놀로지 리뷰 코리아 Vol 10 910월호：Boiling Planet： 새로운 기후 시대의 생존 방안.md",
     "props.md",

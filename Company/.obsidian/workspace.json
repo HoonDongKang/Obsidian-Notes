@@ -8,26 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "153149e01989123c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "86898cdfd330707d",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "first/.obsidian/workspace.json",
-                "staged": false
+                "file": "OBSIDIAN.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OBSIDIAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "OBSIDIAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "OBSIDIAN.md"
+              }
             }
           },
           {
@@ -160,7 +156,7 @@
   },
   "active": "86898cdfd330707d",
   "lastOpenFiles": [
-    "OBSIDIAN.md",
-    "Untitled.canvas"
+    "Untitled.canvas",
+    "OBSIDIAN.md"
   ]
 }
