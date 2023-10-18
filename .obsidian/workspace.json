@@ -11,17 +11,21 @@
             "id": "d24db7a66d47b43a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Company/Vue/$emit & props.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
-            "id": "faf9c563db855f59",
+            "id": "173f18424b8262d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Company/Vue $emit & props.md",
+                "file": "Company/Vue/V-bind.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Company/Vue $emit & props.md",
+                "file": "Company/Vue/V-bind.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Company/Vue $emit & props.md",
+                "file": "Company/Vue/V-bind.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Company/Vue $emit & props.md"
+                "file": "Company/Vue/V-bind.md"
               }
             }
           }
@@ -159,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 543.5
+    "width": 278.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,11 +176,14 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "faf9c563db855f59",
+  "active": "173f18424b8262d8",
   "lastOpenFiles": [
-    "Company/Vue $emit & props.md",
-    "Company/Untitled.canvas",
+    "Company/Vue/$emit & props.md",
+    "Company/Vue/V-bind.md",
+    "Company/Vue/Disabled한 태그를 클릭한다..md",
+    "Company/Vue",
     "Company/gimt list.canvas",
+    "Company/Untitled.canvas",
     "필독 개발자 온보딩 가이드 지속 가능한 소프트웨어와 원활한 협업 문화를 이해하는 프로페셔널 개발자의 탄생.md",
     "Study",
     "Company/OBSIDIAN.md",
