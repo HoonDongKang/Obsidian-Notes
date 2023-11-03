@@ -8,49 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d24db7a66d47b43a",
+            "id": "55dd5a8cd2a7f3a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Company/Vue/$emit & props.md",
+                "file": "Company/Vue/얕은 복사와 깊은 복사.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8c7ef202fa0d8406",
+            "id": "384a446fc9dc7e53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Company/Vue/Destructuring.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "173f18424b8262d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Company/Vue/$emit & props.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8926d85f1a544bae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Company/Vue/Router-link.md",
-                "mode": "source",
+                "file": "Company/Vue/v-slot.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -106,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200.5
   },
   "right": {
     "id": "0463e473a0aed8a9",
@@ -138,25 +114,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Company/Vue/Destructuring.md",
+                "file": "Company/Vue/v-slot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "9d78c056d6330e92",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Company/Vue/Destructuring.md",
-                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -178,12 +142,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Company/Vue/Destructuring.md"
+                "file": "Company/Vue/v-slot.md"
+              }
+            }
+          },
+          {
+            "id": "9358af65b693c5af",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Company/Vue/v-slot.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -200,16 +176,19 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "8c7ef202fa0d8406",
+  "active": "384a446fc9dc7e53",
   "lastOpenFiles": [
+    "Company/Vue/얕은 복사와 깊은 복사.md",
+    "Company/Vue/v-slot.md",
     "Company/Vue/$emit & props.md",
+    "Company/papaya API.canvas",
+    "Untitled.canvas",
     "Company/Vue/Destructuring.md",
+    "Company/gimt list.canvas",
+    "Company/Vue/Disabled한 태그를 클릭한다..md",
     "Company/Vue/Router-link.md",
     "Company/Vue/V-bind.md",
-    "Company/Vue/Disabled한 태그를 클릭한다..md",
     "Company/Vue",
-    "Company/gimt list.canvas",
-    "Company/Untitled.canvas",
     "필독 개발자 온보딩 가이드 지속 가능한 소프트웨어와 원활한 협업 문화를 이해하는 프로페셔널 개발자의 탄생.md",
     "Study",
     "Company/OBSIDIAN.md",
