@@ -11,11 +11,10 @@
             "id": "8715efe17deb0135",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Company/코드리뷰/240229.md",
-                "mode": "source",
-                "source": false
+                "file": ".obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -101,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Company/코드리뷰/240229.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Company/코드리뷰/240229.md"
-              }
+              "state": {}
             }
           },
           {
@@ -139,7 +135,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Company/코드리뷰/240229.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -165,18 +160,18 @@
   },
   "active": "8715efe17deb0135",
   "lastOpenFiles": [
-    "Company/코드리뷰/240223.md",
     "Company/코드리뷰/240229.md",
+    "Company/railymall/join/Person Join.md",
     "Company/railymall/join/join process.canvas",
+    "Company/railymall/join/Join.md",
+    "Company/코드리뷰/240223.md",
     "Company/코드리뷰",
     "Company/Vue/얕은 복사와 깊은 복사.md",
     "Company/Vue/$emit & props.md",
     "Company/railymall/join/recovery.md",
-    "Company/railymall/join/Person Join.md",
     "Company/railymall/join/Company Join.md",
     "Company/railymall/join/Agreement.md",
     "Company/railymall/join/Ceritification.md",
-    "Company/railymall/join/Join.md",
     "Company/railymall/join/j.md",
     "Company/railymall/join",
     "Company/railymall",
