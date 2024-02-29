@@ -1,0 +1,1 @@
+1. _certification 로 찾은 값으로, 성명, 연락처, 생년월일 자동입력 -disabled

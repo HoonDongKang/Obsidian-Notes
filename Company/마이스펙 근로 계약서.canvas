@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"b3b2777aa478d928","type":"text","text":"1**. 고용주가 계약서 생성**\n\n- pdf 파일의 계약서 업로드 시, base64 형식의 URL 로 이미지 preview\n\n- 각 페이지마다 draggable-resizable 태그 생성 가능 버튼 \n\t\t- ( 고용주- 텍스트 / 근로자- 텍스트, 체크 박스, 캔버스)\n\t\t- 계약서 생성 시, 고용주 텍스트는  writable, 근로자 태그는 disabled 상태로 영역만 지정\n\n- 각 페이지에 생성된 태그 좌표 값, pdf 파일의 base64 URL DB 저장","x":320,"y":-160,"width":760,"height":240},
+		{"id":"e962ee7ada6aa4f4","type":"text","text":"**2.  해당 계약서에 서명할 근로자와 근무 조건을 선택 후, 계약 체결**\n\n- 체결할 계약서, 근로지, 근로 시간, 설정\n- \"채용공고에서 찾기\" - 회사 채용 공고에서 합격한 인원 리스트\n- \"검색으로 찾기\" - 회사 채용 공고에 지원한 모든 인원 중 검색","x":320,"y":120,"width":760,"height":180},
+		{"id":"6db6faa0b9568340","type":"text","text":"**3.  근로자가 도착한 계약서에 서명 ( +텍스트, 체크 박스 ), 통장 신분증 사본 첨부**\n\n- DB에 저장된 계약서 ( 태그 좌표 값 - fields, base64 URL - pages ) GET\n- 고용주가 작성한 태그는 disabled, 고용주가 영역 지정한 태그에 근로자는 작성\n- Text / Checkbox => @change=\"update\" 으로 데이터 emit\n- Canvas => @mouseup 으로 마우스 클릭이 끝날 때마다 base64 URL로 변환하여 emit\n- ==> emit 시, { content : value, dataLabel: this.value.dataLabel } 형식으로 변경된 값, 해당 태그의 id 함께 emit \n\n- 3-1에서 불러온 각 태그 값( fields ) 값과 emit된 값의 dataLabel 기준으로 content 값 변경\n- 최종 field값 form 저장 후- employment-sign-forms에 저장\n- 통장 사본, 신분증 사본 file --> form id 로 res 생성","x":320,"y":340,"width":760,"height":360},
+		{"id":"6ffa4a6d684f9e4d","type":"text","text":"**5. 자세히 보기 버튼 시- 모든 입력 태그에 content 만들어 진 component 보여짐**\n\n- 자세히 보기 버튼 클릭\n\t\t- 해당 form, content 내용 CSS 전부 제거.\n\t\t- 계약서 이미지 위 좌표 값으로 태그들 위치\n\t\t- 모든 태그들은 disabled 상태로 저장 \n\t\t- 해당 html -> pdf로 다운로드하면 끝","x":320,"y":940,"width":760,"height":160},
+		{"id":"65a85d8d121bbe58","type":"text","text":"**4. 서명 완료 표시**\n\n- 서명 완료 시, employment-sign-forms 가 생성되면 sign 완료 / createdAt => 서명 시각\n- 이를 기반으로 page 내 \"서명하기\" / \"서명 진행 중\" 표시 => \"서명 완료\"","x":320,"y":740,"width":760,"height":160},
+		{"id":"bdd07cdb534cc121","type":"text","text":"**IF**\n\n1. 동일한 계약서로  여러 체결을 하였을 경우","x":1140,"y":520,"width":680,"height":180},
+		{"id":"22824203272f5005","type":"text","text":"**절차**\n\n1. 고용주가 계약서 생성\n2. 해당 계약서에 서명할 근로자와 근무 조건을 선택 후, 계약 체결\n3. 근로자가 도착한 계약서에 서명 ( +텍스트, 체크 박스 ), 통장 신분증 사본 첨부\n4. 서명 완료 표시\n5. 자세히 보기 버튼 시- 모든 입력 태그에 content 만들어 진 component 보여짐","x":-680,"y":340,"width":760,"height":240}
+	],
+	"edges":[
+		{"id":"84462fa4450c022e","fromNode":"6db6faa0b9568340","fromSide":"right","toNode":"bdd07cdb534cc121","toSide":"left"},
+		{"id":"6176d235d03d9f5a","fromNode":"22824203272f5005","fromSide":"right","toNode":"b3b2777aa478d928","toSide":"left"},
+		{"id":"e829e11e96c7ea87","fromNode":"22824203272f5005","fromSide":"right","toNode":"e962ee7ada6aa4f4","toSide":"left"},
+		{"id":"fe25287c5601a85a","fromNode":"22824203272f5005","fromSide":"right","toNode":"6db6faa0b9568340","toSide":"left"},
+		{"id":"7ae0d502c7a25ffe","fromNode":"22824203272f5005","fromSide":"right","toNode":"65a85d8d121bbe58","toSide":"left"},
+		{"id":"6dc4c6b5bc3cb9b7","fromNode":"22824203272f5005","fromSide":"right","toNode":"6ffa4a6d684f9e4d","toSide":"left"}
+	]
+}
