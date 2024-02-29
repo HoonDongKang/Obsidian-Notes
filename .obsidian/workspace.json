@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "847ab2a1ecadbbdd",
+        "id": "8e3c11481c19ae4f",
         "type": "tabs",
         "children": [
           {
-            "id": "8715efe17deb0135",
+            "id": "8d44eace986d928c",
             "type": "leaf",
             "state": {
               "type": "diff-view",
@@ -158,13 +158,13 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "8715efe17deb0135",
+  "active": "8d44eace986d928c",
   "lastOpenFiles": [
+    "Company/코드리뷰/240223.md",
     "Company/코드리뷰/240229.md",
     "Company/railymall/join/Person Join.md",
     "Company/railymall/join/join process.canvas",
     "Company/railymall/join/Join.md",
-    "Company/코드리뷰/240223.md",
     "Company/코드리뷰",
     "Company/Vue/얕은 복사와 깊은 복사.md",
     "Company/Vue/$emit & props.md",
