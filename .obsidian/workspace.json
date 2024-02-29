@@ -11,10 +11,14 @@
             "id": "8d44eace986d928c",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "canvas",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "Company/railymall/process.canvas",
+                "viewState": {
+                  "x": -1025.118524548735,
+                  "y": 2020.8420091206672,
+                  "zoom": -1.2152057591379493
+                }
               }
             }
           }
@@ -100,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Company/railymall/process.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +131,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Company/railymall/process.canvas"
+              }
             }
           },
           {
@@ -135,6 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Company/railymall/process.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -160,10 +168,13 @@
   },
   "active": "8d44eace986d928c",
   "lastOpenFiles": [
-    "Company/코드리뷰/240223.md",
+    "Company/railymall/problem/v-tab active 설정.md",
     "Company/코드리뷰/240229.md",
+    "Company/railymall/process.canvas",
+    "Company/railymall/problem",
+    "Company/코드리뷰/240223.md",
+    "새 텍스트 문서.txt",
     "Company/railymall/join/Person Join.md",
-    "Company/railymall/join/join process.canvas",
     "Company/railymall/join/Join.md",
     "Company/코드리뷰",
     "Company/Vue/얕은 복사와 깊은 복사.md",
