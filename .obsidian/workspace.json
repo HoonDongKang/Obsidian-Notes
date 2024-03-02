@@ -11,14 +11,11 @@
             "id": "8d44eace986d928c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Company/railymall/process.canvas",
-                "viewState": {
-                  "x": -1025.118524548735,
-                  "y": 2020.8420091206672,
-                  "zoom": -1.2152057591379493
-                }
+                "file": "Company/코드리뷰/240229.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Company/railymall/process.canvas",
+                "file": "Company/코드리뷰/240229.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Company/railymall/process.canvas"
+                "file": "Company/코드리뷰/240229.md"
               }
             }
           },
@@ -142,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Company/railymall/process.canvas",
+                "file": "Company/코드리뷰/240229.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 218.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,13 +165,13 @@
   },
   "active": "8d44eace986d928c",
   "lastOpenFiles": [
-    "Company/railymall/problem/v-tab active 설정.md",
+    "Company/코드리뷰/240223.md",
     "Company/코드리뷰/240229.md",
     "Company/railymall/process.canvas",
+    "Company/railymall/problem/v-tab active 설정.md",
     "Company/railymall/problem",
-    "Company/코드리뷰/240223.md",
-    "새 텍스트 문서.txt",
     "Company/railymall/join/Person Join.md",
+    "Company/railymall/join/join process.canvas",
     "Company/railymall/join/Join.md",
     "Company/코드리뷰",
     "Company/Vue/얕은 복사와 깊은 복사.md",
