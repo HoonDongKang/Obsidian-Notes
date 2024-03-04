@@ -11,10 +11,14 @@
             "id": "8d44eace986d928c",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "canvas",
               "state": {
-                "file": "Company/코드리뷰/240223.md",
-                "staged": false
+                "file": "Company/projects/micepec/papaya API.canvas",
+                "viewState": {
+                  "x": -150.24627888092905,
+                  "y": 322.041807431368,
+                  "zoom": -0.7189515402948548
+                }
               }
             }
           }
@@ -100,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Company/projects/micepec/papaya API.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +131,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Company/projects/micepec/papaya API.canvas"
+              }
             }
           },
           {
@@ -135,6 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Company/projects/micepec/papaya API.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,29 +166,32 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "8d44eace986d928c",
+  "active": "42f568cc4222250a",
   "lastOpenFiles": [
-    "Company/마이스펙 근로 계약서.canvas",
+    "Company/projects/micepec",
+    "Company/projects",
+    "Untitled",
+    "Company/gimt list.canvas",
+    "Company/projects/micepec/papaya API.canvas",
+    "Company/projects/micepec/마이스펙 근로 계약서.canvas",
     "Company/code review/240229.md",
     "Company/code review/240223.md",
-    "Company/railymall/process.canvas",
-    "Company/railymall/problem/v-tab active 설정.md",
-    "Company/railymall/problem",
+    "Company/projects/railymall/process.canvas",
+    "Company/projects/railymall/problem/v-tab active 설정.md",
+    "Company/projects/railymall/problem",
     "새 텍스트 문서.txt",
-    "Company/railymall/join/Person Join.md",
-    "Company/railymall/join/Join.md",
+    "Company/projects/railymall/join/Person Join.md",
+    "Company/projects/railymall/join/Join.md",
     "Company/code review",
     "Company/Vue/얕은 복사와 깊은 복사.md",
     "Company/Vue/$emit & props.md",
-    "Company/railymall/join/recovery.md",
-    "Company/railymall/join/Company Join.md",
-    "Company/railymall/join/Agreement.md",
-    "Company/railymall/join/Ceritification.md",
+    "Company/projects/railymall/join/recovery.md",
+    "Company/projects/railymall/join/Company Join.md",
+    "Company/projects/railymall/join/Agreement.md",
+    "Company/projects/railymall/join/Ceritification.md",
     "Company/railymall/join/j.md",
-    "Company/railymall/join",
-    "Company/railymall",
-    "Company/gimt list.canvas",
-    "Company/papaya API.canvas",
+    "Company/projects/railymall/join",
+    "Company/projects/railymall",
     "Company/Vue/v-slot.md",
     "Company/Vue/Destructuring.md",
     "Company/Vue/Disabled한 태그를 클릭한다..md",
@@ -194,9 +205,7 @@
     "Company TIL/Vue/MIT 테크놀로지 리뷰 코리아 Vol 10 910월호：Boiling Planet： 새로운 기후 시대의 생존 방안.md",
     "props.md",
     "Company TIL/GIMT/Untitled",
-    "Company TIL/Vue",
     "Vue emit.md",
-    "Company TIL",
     "Vue emit.md",
     "UNTITLED.md",
     "2023-10-12.md",
