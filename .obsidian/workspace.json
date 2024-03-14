@@ -11,14 +11,11 @@
             "id": "8d44eace986d928c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Company/projects/railymall/process.canvas",
-                "viewState": {
-                  "x": 695.9436753548914,
-                  "y": -1836.9779443104817,
-                  "zoom": -1.024951561847064
-                }
+                "file": "Company/code review/BE/240314.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Company/projects/railymall/process.canvas",
+                "file": "Company/code review/BE/240314.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Company/projects/railymall/process.canvas"
+                "file": "Company/code review/BE/240314.md"
               }
             }
           },
@@ -142,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Company/projects/railymall/process.canvas",
+                "file": "Company/code review/BE/240314.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -168,8 +165,11 @@
   },
   "active": "8d44eace986d928c",
   "lastOpenFiles": [
-    "Company/projects/railymall/join/Untitled.canvas",
+    "Company/code review/BE/240229.md",
+    "Company/code review/BE/240314.md",
     "Company/projects/railymall/process.canvas",
+    "Company/projects/railymall/problem/판매량 정렬에 대한 구현.md",
+    "Company/projects/railymall/join/Untitled.canvas",
     "Company/projects/railymall/join/recovery.md",
     "Company/projects/railymall/problem/v-tab active 설정.md",
     "Company/projects/railymall/join/Ceritification.md",
@@ -182,8 +182,6 @@
     "Company/projects/railymall/join/Agreement.md",
     "Pasted image 20240307101144.png",
     "Company/projects/micepec/papaya API.canvas",
-    "Company/code review/BE/240304.md",
-    "Company/code review/BE/240229.md",
     "Company/code review/FE/240223.md",
     "Company/code review/BE",
     "Company/code review/FE",
@@ -211,7 +209,6 @@
     "Company TIL/Vue/Untitled.canvas",
     "Company TIL/Vue/MIT 테크놀로지 리뷰 코리아 Vol 10 910월호：Boiling Planet： 새로운 기후 시대의 생존 방안.md",
     "props.md",
-    "Vue emit.md",
     "Untitled 1.canvas"
   ]
 }
