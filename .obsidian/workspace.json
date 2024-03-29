@@ -11,11 +11,10 @@
             "id": "8d44eace986d928c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Company/code review/BE/240314.md",
-                "mode": "source",
-                "source": false
+                "file": "Company/projects/railymall/follow/Untitled.canvas",
+                "staged": false
               }
             }
           }
@@ -101,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Company/code review/BE/240314.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Company/code review/BE/240314.md"
-              }
+              "state": {}
             }
           },
           {
@@ -139,7 +135,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Company/code review/BE/240314.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 221.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,17 +160,19 @@
   },
   "active": "8d44eace986d928c",
   "lastOpenFiles": [
-    "Company/code review/BE/240229.md",
-    "Company/projects/railymall/process.canvas",
-    "Company/code review/BE/240314.md",
     "Company/code review/BE/240328.md",
+    "Company/projects/railymall/process.canvas",
+    "Company/projects/railymall/tag/TAG.md",
+    "Company/projects/railymall/map/Map.md",
+    "Company/code review/BE/240314.md",
+    "Company/projects/railymall/map",
+    "Company/projects/railymall/follow/Untitled.canvas",
+    "Company/code review/BE/240229.md",
     "Company/projects/railymall/join/Untitled.canvas",
     "Company/projects/railymall/problem/판매량 정렬에 대한 구현.md",
     "Company/projects/railymall/problem/v-tab active 설정.md",
-    "Company/projects/railymall/tag/TAG.md",
     "Pasted image 20240307103656.png",
     "Pasted image 20240307104801.png",
-    "Company/projects/railymall/follow/Untitled.canvas",
     "Company/projects/railymall/follow/Untitled",
     "Company/projects/railymall/follow/Follwer & Following.md",
     "Company/projects/railymall/follow",
@@ -198,7 +195,6 @@
     "Untitled",
     "Company/gimt list.canvas",
     "Company/projects/railymall/problem",
-    "새 텍스트 문서.txt",
     "Company/projects/railymall/join/Person Join.md",
     "Company/Vue/얕은 복사와 깊은 복사.md",
     "Company/Vue/$emit & props.md",
@@ -208,7 +204,6 @@
     "Company/Vue/Disabled한 태그를 클릭한다..md",
     "Company/Vue/Router-link.md",
     "Company/Vue/V-bind.md",
-    "필독 개발자 온보딩 가이드 지속 가능한 소프트웨어와 원활한 협업 문화를 이해하는 프로페셔널 개발자의 탄생.md",
     "Company TIL/Vue/Untitled.canvas",
     "Untitled 1.canvas"
   ]
