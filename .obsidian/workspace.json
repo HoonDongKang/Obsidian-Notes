@@ -11,14 +11,34 @@
             "id": "8d44eace986d928c",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "canvas",
               "state": {
-                "file": "Company/projects/railymall/follow/Untitled.canvas",
-                "staged": false
+                "file": "Company/projects/railymall/process.canvas",
+                "viewState": {
+                  "x": -777.2870536104936,
+                  "y": 4733.423136442431,
+                  "zoom": -0.349334252228014
+                }
+              }
+            }
+          },
+          {
+            "id": "d88c520f60d5971c",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Company/projects/railymall/request/Untitled.canvas",
+                "viewState": {
+                  "x": 22.933296241043536,
+                  "y": -317.1973672927751,
+                  "zoom": -0.6666666666666667
+                }
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,6 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Company/projects/railymall/request/Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +147,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Company/projects/railymall/request/Untitled.canvas"
+              }
             }
           },
           {
@@ -135,6 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Company/projects/railymall/request/Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,11 +182,16 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "8d44eace986d928c",
+  "active": "d88c520f60d5971c",
   "lastOpenFiles": [
-    "Company/code review/BE/240328.md",
-    "Company/projects/railymall/process.canvas",
+    "Company/projects/railymall/request/Request.md",
+    "Company/projects/railymall/request/Untitled.canvas",
     "Company/projects/railymall/tag/TAG.md",
+    "Company/projects/railymall/process.canvas",
+    "Company/projects/railymall/request",
+    "Company/projects/railymall/tag-event/Tag Event.md",
+    "Company/projects/railymall/tag-event",
+    "Company/code review/BE/240328.md",
     "Company/projects/railymall/map/Map.md",
     "Company/code review/BE/240314.md",
     "Company/projects/railymall/map",
@@ -192,9 +221,7 @@
     "Company/projects/micepec/마이스펙 근로 계약서.canvas",
     "Company/projects/micepec",
     "Company/projects",
-    "Untitled",
     "Company/gimt list.canvas",
-    "Company/projects/railymall/problem",
     "Company/projects/railymall/join/Person Join.md",
     "Company/Vue/얕은 복사와 깊은 복사.md",
     "Company/Vue/$emit & props.md",
@@ -202,8 +229,6 @@
     "Company/Vue/v-slot.md",
     "Company/Vue/Destructuring.md",
     "Company/Vue/Disabled한 태그를 클릭한다..md",
-    "Company/Vue/Router-link.md",
-    "Company/Vue/V-bind.md",
     "Company TIL/Vue/Untitled.canvas",
     "Untitled 1.canvas"
   ]

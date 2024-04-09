@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"418e455bfa168705","type":"text","text":"사용자가 예약 (예약대기)\n-  `_purchase: null`\n- `status: AWAITING`\n\n사용자가 결제 (예약대기)\n- `_purchase : purchase`\n- `status: AWAITING`\n\n기업이 결제 확정 (예약확정)\n- `_purchase : purchase`\n- `status: CONFIRMED\n\n기업이 결제 취소 / 사용자가 결제 취소\n- `_purchase : purchase`\n- `status: CANCELED","x":-980,"y":-440,"width":520,"height":510},
+		{"id":"63581d184a76e8da","type":"text","text":"결제가 완료된 건인가?","x":40,"y":-373,"width":250,"height":60},
+		{"id":"7a1e387388040caf","type":"text","text":"확정이 되었는가","x":-199,"y":-223,"width":250,"height":60},
+		{"id":"4bc56012589a1923","x":-40,"y":-55,"width":250,"height":60,"type":"text","text":"예약 취소 /  닫기"},
+		{"id":"db5f4af787103d79","x":186,"y":-225,"width":250,"height":62,"type":"text","text":"결제하기 / 닫기"},
+		{"id":"87dfd58b6f87b9ab","type":"text","text":"결제가 완료된 건인가?","x":700,"y":-373,"width":250,"height":60},
+		{"id":"a42279904654f6e0","x":882,"y":-215,"width":250,"height":60,"type":"text","text":"닫기"},
+		{"id":"6b36828da653a4f2","type":"text","text":"사용자인가?","x":383,"y":-560,"width":200,"height":60},
+		{"id":"18687d59c930f216","x":535,"y":-215,"width":250,"height":60,"type":"text","text":"확정이 되었는가"},
+		{"id":"ba0eb90b32e31dd5","x":700,"y":-55,"width":250,"height":60,"type":"text","text":"예약확정 / 닫기"},
+		{"id":"8f9b41ed5481eb0b","x":383,"y":-55,"width":250,"height":60,"type":"text","text":"예약취소  /  닫기"},
+		{"id":"f85eb90606e62c91","x":-360,"y":-60,"width":250,"height":70,"type":"text","text":"닫기"}
+	],
+	"edges":[
+		{"id":"60ad04cfc78cb6e8","fromNode":"6b36828da653a4f2","fromSide":"bottom","toNode":"63581d184a76e8da","toSide":"top","label":"Y"},
+		{"id":"bc5a7a434d3f551f","fromNode":"6b36828da653a4f2","fromSide":"bottom","toNode":"87dfd58b6f87b9ab","toSide":"top","label":"N"},
+		{"id":"3d683a216199f203","fromNode":"63581d184a76e8da","fromSide":"bottom","toNode":"7a1e387388040caf","toSide":"top","label":"Y"},
+		{"id":"dfb684c2c595768c","fromNode":"7a1e387388040caf","fromSide":"bottom","toNode":"f85eb90606e62c91","toSide":"top","label":"Y"},
+		{"id":"88a1e151b5d87188","fromNode":"7a1e387388040caf","fromSide":"bottom","toNode":"4bc56012589a1923","toSide":"top","label":"N"},
+		{"id":"3cb9531a330460ba","fromNode":"63581d184a76e8da","fromSide":"bottom","toNode":"db5f4af787103d79","toSide":"top","label":"N"},
+		{"id":"284e57a28b1e4aaf","fromNode":"87dfd58b6f87b9ab","fromSide":"bottom","toNode":"18687d59c930f216","toSide":"top","label":"Y"},
+		{"id":"8ed7bb03333cea3c","fromNode":"18687d59c930f216","fromSide":"bottom","toNode":"8f9b41ed5481eb0b","toSide":"top","label":"Y"},
+		{"id":"6bf8d824100ad705","fromNode":"18687d59c930f216","fromSide":"bottom","toNode":"ba0eb90b32e31dd5","toSide":"top","label":"N"},
+		{"id":"fc0259ad8f8a316a","fromNode":"87dfd58b6f87b9ab","fromSide":"bottom","toNode":"a42279904654f6e0","toSide":"top","label":"N"}
+	]
+}
