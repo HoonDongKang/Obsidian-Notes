@@ -15,30 +15,42 @@
               "state": {
                 "file": "Company/projects/railymall/process.canvas",
                 "viewState": {
-                  "x": -777.2870536104936,
-                  "y": 4733.423136442431,
-                  "zoom": -0.349334252228014
+                  "x": 798.9766752298631,
+                  "y": 2319.58057958681,
+                  "zoom": -3.7889330903796035
                 }
               }
             }
           },
           {
-            "id": "d88c520f60d5971c",
+            "id": "0ec48828c04c4c88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Company/projects/railymall/analytics/Tag.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "318f0fd935b7898e",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Company/projects/railymall/request/Untitled.canvas",
+                "file": "Company/projects/railymall/join/Untitled.canvas",
                 "viewState": {
-                  "x": 22.933296241043536,
-                  "y": -317.1973672927751,
-                  "zoom": -0.6666666666666667
+                  "x": -209.65915119363393,
+                  "y": 441.6657824933687,
+                  "zoom": -0.9884737466189727
                 }
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,7 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.5
+    "width": 204.5
   },
   "right": {
     "id": "0463e473a0aed8a9",
@@ -120,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Company/projects/railymall/request/Untitled.canvas",
+                "file": "Company/projects/railymall/join/Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Company/projects/railymall/request/Untitled.canvas"
+                "file": "Company/projects/railymall/join/Untitled.canvas"
               }
             }
           },
@@ -158,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Company/projects/railymall/request/Untitled.canvas",
+                "file": "Company/projects/railymall/join/Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,54 +194,56 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "d88c520f60d5971c",
+  "active": "318f0fd935b7898e",
   "lastOpenFiles": [
-    "Company/projects/railymall/request/Request.md",
-    "Company/projects/railymall/request/Untitled.canvas",
-    "Company/projects/railymall/tag/TAG.md",
-    "Company/projects/railymall/process.canvas",
-    "Company/projects/railymall/request",
-    "Company/projects/railymall/tag-event/Tag Event.md",
-    "Company/projects/railymall/tag-event",
-    "Company/code review/BE/240328.md",
-    "Company/projects/railymall/map/Map.md",
-    "Company/code review/BE/240314.md",
-    "Company/projects/railymall/map",
-    "Company/projects/railymall/follow/Untitled.canvas",
-    "Company/code review/BE/240229.md",
-    "Company/projects/railymall/join/Untitled.canvas",
-    "Company/projects/railymall/problem/판매량 정렬에 대한 구현.md",
-    "Company/projects/railymall/problem/v-tab active 설정.md",
-    "Pasted image 20240307103656.png",
-    "Pasted image 20240307104801.png",
-    "Company/projects/railymall/follow/Untitled",
-    "Company/projects/railymall/follow/Follwer & Following.md",
-    "Company/projects/railymall/follow",
-    "Company/projects/railymall/tag",
     "Company/projects/railymall/join/reCAPTCHA.md",
-    "Company/projects/railymall/join/recovery.md",
     "Company/projects/railymall/join/Ceritification.md",
-    "Company/projects/railymall/join/Company Join.md",
-    "Company/projects/railymall/join/Join.md",
-    "Company/projects/railymall/problem/판매량, 베스트 상품에 대한 구현.md",
     "Company/projects/railymall/join/Agreement.md",
-    "Pasted image 20240307101144.png",
-    "Company/projects/micepec/papaya API.canvas",
-    "Company/code review/FE/240223.md",
-    "Company/code review/BE",
-    "Company/code review/FE",
-    "Company/projects/micepec/마이스펙 근로 계약서.canvas",
-    "Company/projects/micepec",
-    "Company/projects",
-    "Company/gimt list.canvas",
-    "Company/projects/railymall/join/Person Join.md",
+    "Company/projects/railymall/problem/v-tab active 설정.md",
+    "Company/projects/railymall/problem/판매량 정렬에 대한 구현.md",
+    "Company/projects/railymall/request/Request.md",
+    "Company/Vue/Disabled한 태그를 클릭한다..md",
+    "Company/Vue/Router-link.md",
+    "Company/Vue/V-bind.md",
+    "Company/Vue/v-slot.md",
+    "Pasted image 20240307103656.png",
+    "Company/Untitled.md",
+    "Company/Vue/Destructuring.md",
     "Company/Vue/얕은 복사와 깊은 복사.md",
     "Company/Vue/$emit & props.md",
-    "Company/railymall/join/j.md",
-    "Company/Vue/v-slot.md",
-    "Company/Vue/Destructuring.md",
-    "Company/Vue/Disabled한 태그를 클릭한다..md",
-    "Company TIL/Vue/Untitled.canvas",
-    "Untitled 1.canvas"
+    "Company/projects/railymall/tag-event/Tag Event.md",
+    "Company/projects/railymall/process.canvas",
+    "Company/projects/railymall/tag/TAG.md",
+    "Company/projects/railymall/request/Untitled.canvas",
+    "Company/projects/railymall/personal-pay/Personal-Pay.md",
+    "Company/projects/railymall/cancel/process.canvas",
+    "Company/projects/railymall/cancel/결제 취소.md",
+    "Company/projects/railymall/analytics/Visit.md",
+    "Company/projects/railymall/analytics/Tag.md",
+    "Company/projects/railymall/analytics/Sales.md",
+    "Company/projects/railymall/analytics/Banner.md",
+    "Company/projects/railymall/alarm/user-alarms.md",
+    "Company/projects/railymall/alarm/Untitled.canvas",
+    "Company/projects/railymall/alarm/shop-alarms.md",
+    "Company/projects/railymall/alarm/Message Maker.md",
+    "Company/projects/railymall/join/Untitled.canvas",
+    "Pasted image 20240307104801.png",
+    "Untitled.md",
+    "Articles",
+    "Company/projects/railymall/analytics",
+    "Company/projects/railymall/cancel",
+    "Company/projects/railymall/price policy.canvas",
+    "Company/projects/railymall/alarm",
+    "Company/projects/railymall/personal-pay",
+    "Company/projects/railymall/request",
+    "Company/projects/railymall/tag-event",
+    "Company/projects/railymall/map",
+    "Company/projects/railymall/follow/Untitled.canvas",
+    "Company/projects/railymall/follow/Untitled",
+    "Company/projects/railymall/follow",
+    "Pasted image 20240307101144.png",
+    "Company/projects/micepec/papaya API.canvas",
+    "Company/projects/micepec/마이스펙 근로 계약서.canvas",
+    "Company/gimt list.canvas"
   ]
 }

@@ -45,5 +45,10 @@ visitor: {
 	 - 모두 유효할 경우, 방문자, 작성자에게 각 마일리지 적립
 
 2.  해당 링크에서 바로 구매하였을 시, 
-	-  주문서로 넘어갈 때, `_tag`, `_board?` 값 같이
-	- 결제 창에서 `purchase schema`에서 `validation` 후, `userPoint` 적립
+	-  해당 상품 페이지 `_tag`, `_board`
+	-  `order` 스키마에 `_tagEvent`, `_board` 값 추가
+	- 결제 성공 시, `purchase`스키마에 `_tagEvent, _board`  추가
+	- `purchase CONFIRM` 시에  `_tagEvent, _board` 존재할 경우, 구매자에게 마일리지 지급
+		1. 태그 이벤트가 존재하는가
+		2. 구매자와 작성자가  동일한가
+		3. 상품의 이벤트 기간이 유효한가
