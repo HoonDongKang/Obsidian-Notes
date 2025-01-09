@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"a1968a4b86737a6a","type":"text","text":"## 대한문고 상품권\n\n#### 구성\n- **상품권 교환소**\n\t- 상품권 등록\n\t- 모바일/지류/수동/api 별 주문 관리\n\t- 취소 및 환불 (자동 취소 X / 관리자 수동 취소 및 환불)\n- **배송 상품**\n\t- 나누리 캐시로만 구매 가능\n#### Flow\n1.  플랫폼 API를 통해 상품권 등록\n2. CP 별 상품권 구매 여부 및 과금 설정\n3. 상품권 사이트에서 상품권 판매\n4. 상품권 API를 통해 주문 요청 \n5. 주문에 포함된 상품권의 플랫폼 API를 통해 상품권 구매 처리 (배치)\n6. `noti`를 통해 핀 발행 내용 전달\n\n#### 특이사항\n- **플랫폼**\n\t- 플랫폼 API를 통해 상품권을 등록 및 구매/취소\n\t- 플랫폼 추가 시에 스키마 및 `issue` 로직 생성 (notion 인수인계 참고)\n- **CP**\n\t- 상품권 서버에 주문을 요청하는 유저 (상품권 사이트 관리자)\n\t- 각 CP 별 상품권 구매 여부 및 과금 등 설정 가능\n\t- CP 캐시 한도 존재\n- **주문 type**\n\t- **모바일**: 대한문고 홈페이지에서 구매\n\t- **지류**: 대한문고 홈페이지에서 지류 상품 구매\n\t- **수동**: 상품권 서버 관리자에서 수동 생성 (보통 플랫폼 API 개발 테스트용)\n\t- **api** : 상품권 서버 API를 통한 주문\n - **배송상품**\n\t - 나누리 캐시를 통해서만 구매 가능\n\t - 현재 대한문고 사이트에서 구매 후, 대한문고가 주문 종합하여 협력체에 전달\n\t - 추후, 주문 시 협력체 API를 통해 주문 정보 전달 기능 추가 예정\n\n\n-  상품권 서버, 캐시 서버와 DB 공유\n- 테스트(`dev`) 서버와 실(`main`) 서버 구분\n- 구매 테스트 전 대한문고 연락 필요","x":-1000,"y":-570,"width":680,"height":1130},
+		{"id":"361daf149855e6dd","type":"text","text":"## 상품권 API 제공 업체\n\n해당 API로 상품권 등록 및 발권, 취소","x":-860,"y":720,"width":400,"height":120},
+		{"id":"ecfa9fe48ca68416","type":"text","text":"## 나누리핀 (모모핀)\n\n#### 구성\n-  **관리자**\n\t- 통계 및 정산\n\t- IP 차단 및 허용\n\t- CP 관리\n - **`API` 제공**\n\t - 나누리 상품권 핀 발행 및 폐기 (api doc 참고)\n\n#### Flow\n1. 상품권 사이트에서 나누리 상품권 구매\n2. 대한문고 상품권 혹은 나누리 핀 API를 사용하는 사이트에서 핀 발행 요청\n3. 핀 응답\n\n#### 특이사항\n- **관리자**\n\t - 접속되는 관리자 ID 에 따라 통계 및 정산, CP가 다르게 집계\n\t - 대한문고 ID를 전달받아, 연락처 추가 후 로그인\n\t - 핀 발행 및 폐기 테스트 전 대한문고 연락","x":-1880,"y":290,"width":520,"height":700},
+		{"id":"d760f9b3481fa01a","x":-1880,"y":-240,"width":520,"height":340,"type":"text","text":"## 대한문고 비즈몰\n\n#### 구성\n- 대용량 나누리핀 발송\n#### Flow\n1. 비즈몰에서 핀 구매(포인트로 구매)\n2. 나누리 상품권 핀 요청\n3. 주문 리스트 수신자들에게 핀 발송\n"},
+		{"id":"d9bbbaadb67cd62f","type":"text","text":"## 상품권 사이트\n\n대한문고 상품권 API를 사용하는 모든 사이트.\n#### 구성\n- **`nanuripin-gshop`**\n\t- 하나의 템플릿에서 여러 사이트 운영 중\n\t- 로컬 실행 전, `env`에서 실행시킬 사이트 port 설정 후 실행\n- **대한문고**\n\t- 대한문고 홈페이지 / 잇콘\n- **그 외**\n\t- 페이쏨땀, 조이콘 ,,,\n\n","x":-1880,"y":-720,"width":520,"height":420},
+		{"id":"5222dff9332e090a","type":"text","text":"## 대한문고 캐시\n\n#### 구성\n- **관리자**\n\t- 대한문고 사용자의 나누리 캐시 사용 기록\n- **충전 `API` 제공**\n\t- 나누리 상품권 핀을 나누리 캐시로 전환시키는 API \n\n#### 특이사항\n-  상품권 서버, 캐시 서버와 DB 공유\n- 테스트(`dev`) 서버와 실(`main`) 서버 구분","x":20,"y":440,"width":560,"height":400},
+		{"id":"5141985218313798","type":"text","text":"## 대한문고\n\n#### 구성\n- **도서 / ebook**\n- **상품권 교환소**\n\t- 대한문고 상품권 서버에서 제공하는 상품권으로 구매\n\t- 주문 내역 및 구매 내역은 상품권 관리자에서 조회\n- **배송 상품**\n\t-  대한문고 상품권 서버에서 제공하는 배송 상품으로 구매\n\t- 주문 내역 및 구매 내역은 상품권 관리자에서 조회\n\t- 나누리 캐시로만 구매 가능\n\t- 현재는 구매 후, 협력사에 대한문고가 종합하여 전달이지만 추후 API로 대체 예정\n#### 특이사항\n- 상품권 서버, 캐시 서버와 DB 공유\n- 테스트(`dev`) 서버와 실(`main`) 서버 구분\n- 구매 테스트 전 대한문고 연락 필요","x":-40,"y":-570,"width":680,"height":580}
+	],
+	"edges":[
+		{"id":"84b5c3ccfee038a6","fromNode":"a1968a4b86737a6a","fromSide":"right","toNode":"5141985218313798","toSide":"left","label":"상품권 주문 ->\n<-상품권 핀 발행"},
+		{"id":"8bfb6068fda0cfc3","fromNode":"5141985218313798","fromSide":"left","toNode":"a1968a4b86737a6a","toSide":"right"},
+		{"id":"f4b376a115fb2ae2","fromNode":"5141985218313798","fromSide":"bottom","toNode":"5222dff9332e090a","toSide":"top","label":"대한문고 캐시 로그"},
+		{"id":"d18f403ef59d5aad","fromNode":"d9bbbaadb67cd62f","fromSide":"right","toNode":"a1968a4b86737a6a","toSide":"left"},
+		{"id":"0a9721aa198fd91d","fromNode":"a1968a4b86737a6a","fromSide":"left","toNode":"d9bbbaadb67cd62f","toSide":"right","label":"상품권 주문->\n<- 상품권 핀 발행"},
+		{"id":"b4e641a6c0ce9f04","fromNode":"ecfa9fe48ca68416","fromSide":"right","toNode":"a1968a4b86737a6a","toSide":"left"},
+		{"id":"8a182258a37ab85d","fromNode":"a1968a4b86737a6a","fromSide":"left","toNode":"ecfa9fe48ca68416","toSide":"right","label":"<- 나누리 핀 발급 요청\n나누리 핀 발급->"},
+		{"id":"41df68d4ff53998b","fromNode":"a1968a4b86737a6a","fromSide":"bottom","toNode":"361daf149855e6dd","toSide":"top"},
+		{"id":"15ab7e97524c0d30","fromNode":"361daf149855e6dd","fromSide":"top","toNode":"a1968a4b86737a6a","toSide":"bottom","label":"상품권 발권 요청\n/\n상품권 핀 발급"},
+		{"id":"775817349167e104","fromNode":"d760f9b3481fa01a","fromSide":"bottom","toNode":"ecfa9fe48ca68416","toSide":"top"},
+		{"id":"11a160c87011c26e","fromNode":"ecfa9fe48ca68416","fromSide":"top","toNode":"d760f9b3481fa01a","toSide":"bottom","label":"나누리 핀 요청\n/\n나누리 핀 발급"}
+	]
+}
