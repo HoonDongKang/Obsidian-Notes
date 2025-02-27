@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "의식적인 연습/250226_2nd_week.md",
+                "file": "의식적인 연습/250226_1st_커리어 스토리 수정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "250226_2nd_week"
+              "title": "250226_1st_커리어 스토리 수정"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "의식적인 연습/250226_2nd_week.md",
+                "file": "의식적인 연습/250226_1st_커리어 스토리 수정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 250226_2nd_week"
+              "title": "Backlinks for 250226_1st_커리어 스토리 수정"
             }
           },
           {
@@ -138,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "의식적인 연습/250226_2nd_week.md",
+                "file": "의식적인 연습/250226_1st_커리어 스토리 수정.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 250226_2nd_week"
+              "title": "Outline of 250226_1st_커리어 스토리 수정"
             }
           },
           {
@@ -153,12 +153,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "의식적인 연습/250226_2nd_week.md",
+                "file": "의식적인 연습/250226_1st_커리어 스토리 수정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 250226_2nd_week"
+              "title": "Outgoing links from 250226_1st_커리어 스토리 수정"
             }
           },
           {
@@ -190,16 +190,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9ed8009d1a4af1c2",
+  "active": "42f568cc4222250a",
   "lastOpenFiles": [
+    "의식적인 연습/250226_2nd_week.md",
+    "Excalidraw/detail_goals.md",
+    "의식적인 연습/detail_goals.png",
     "의식적인 연습/250226_1st_커리어 스토리 수정.md",
     "의식적인 연습/250219_1st_week.md",
-    "의식적인 연습/250226_2nd_week.md",
-    "Pasted image 20250227134113.png",
     "Pasted image 20240307104801.png",
     "Pasted image 20240307103656.png",
     "Company/code review/FE/240223.md",
-    "Excalidraw/detail_goals.md",
     "Company/projects/종합/대한문고_인프라.canvas",
     "의식적인 연습/250226_1st_ 음성코칭.md",
     "Company/projects/daehan/배송상품/배송 상품 추가.md",
