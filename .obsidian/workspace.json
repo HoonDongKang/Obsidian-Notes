@@ -4,56 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "46f7364fe55ff802",
+        "id": "126eaa69df1e6da2",
         "type": "tabs",
         "children": [
           {
-            "id": "c59e384c115cf85d",
+            "id": "9ed8009d1a4af1c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Company/projects/villeroy/Filtering.md",
+                "file": "의식적인 연습/250226_2nd_week.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Filtering"
-            }
-          },
-          {
-            "id": "2e33d1b198327652",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Company/projects/railymall/coupon/플랫폼 발급 및 카테고리.canvas",
-                "viewState": {
-                  "x": -14,
-                  "y": 921.9247434435578,
-                  "zoom": -2.727392705551018
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "플랫폼 발급 및 카테고리"
-            }
-          },
-          {
-            "id": "ccd2896fa1601c10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Company/projects/종합/Micepec.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Micepec"
+              "title": "250226_2nd_week"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -72,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -109,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 272.5
   },
   "right": {
     "id": "0463e473a0aed8a9",
@@ -119,16 +88,6 @@
         "id": "a0ee37776560b8db",
         "type": "tabs",
         "children": [
-          {
-            "id": "b11dafd3835c03f1",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
-          },
           {
             "id": "b5a08323be5d0e8e",
             "type": "leaf",
@@ -145,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20240307104801.png",
+                "file": "의식적인 연습/250226_2nd_week.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pasted image 20240307104801"
+              "title": "Backlinks for 250226_2nd_week"
             }
           },
           {
@@ -165,7 +124,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -177,10 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20240307104801.png"
+                "file": "의식적인 연습/250226_2nd_week.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20240307104801"
+              "title": "Outline of 250226_2nd_week"
             }
           },
           {
@@ -189,20 +153,29 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20240307104801.png",
+                "file": "의식적인 연습/250226_2nd_week.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Pasted image 20240307104801"
+              "title": "Outgoing links from 250226_2nd_week"
+            }
+          },
+          {
+            "id": "377d02e8ecc245dd",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 501.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,59 +185,60 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "kr-book-info-plugin:Add Book Info": false
+      "kr-book-info-plugin:Add Book Info": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ccd2896fa1601c10",
+  "active": "9ed8009d1a4af1c2",
   "lastOpenFiles": [
-    "Company/projects/종합/Lumino.md",
-    "Company/projects/종합/Micepec.md",
-    "Company/projects/종합/ddmsfcenter.md",
-    "Company/projects/종합/Replus.md",
-    "Company/projects/종합/Villeroy.md",
-    "Company/projects/종합/대한문고_인프라.canvas",
-    "Company/projects/lumino/Untitled.canvas",
-    "Company/projects/종합",
-    "Company/projects/replus",
-    "Company/projects/villeroy/Filtering Key.md",
-    "Company/projects/railymall/coupon/플랫폼 발급 및 카테고리.canvas",
-    "Company/projects/villeroy/Filtering.md",
-    "Company/projects/villeroy/Dist 파일로 로컬에서 배포 파일 확인.md",
-    "Company/projects/railymall/join/Untitled.canvas",
-    "Company/projects/railymall/tag-event/Tag Event.md",
-    "Company/projects/micepec/마이스펙 근로 계약서.canvas",
-    "Company/projects/itgo/재고 부족 알람.md",
-    "Company/projects/itgo/TIP.md",
-    "Company/projects/villeroy/Import Export Scope Issue.md",
-    "Company/projects/Untitled.md",
+    "의식적인 연습/250226_1st_커리어 스토리 수정.md",
+    "의식적인 연습/250219_1st_week.md",
+    "의식적인 연습/250226_2nd_week.md",
+    "Pasted image 20250227134113.png",
     "Pasted image 20240307104801.png",
     "Pasted image 20240307103656.png",
-    "Company/projects/railymall/process.canvas",
-    "Company/projects/railymall/0930.md",
-    "Company/projects/railymall/request/Untitled.canvas",
-    "Company/projects/railymall/request/Request.md",
-    "Company/projects/railymall/problem/v-tab active 설정.md",
-    "Company/projects/railymall/problem/판매량 정렬에 대한 구현.md",
-    "Company/projects/railymall/join/reCAPTCHA.md",
-    "Company/projects/railymall/join/Join.md",
-    "Company/projects/railymall/join/Ceritification.md",
-    "Company/projects/railymall/join/Agreement.md",
-    "Company/projects/railymall/tag/TAG.md",
-    "Company/projects/railymall/alarm/Message Maker.md",
-    "Company/projects/micepec/papaya API.canvas",
-    "Company/projects/daehan/TIP.md",
+    "Company/code review/FE/240223.md",
+    "Excalidraw/detail_goals.md",
+    "Company/projects/종합/대한문고_인프라.canvas",
+    "의식적인 연습/250226_1st_ 음성코칭.md",
     "Company/projects/daehan/배송상품/배송 상품 추가.md",
-    "Company/projects/daehan/biz/기기 로그인 관리.md",
-    "Company/projects/daehan/배송상품",
+    "Company/projects/종합/Villeroy.md",
+    "Company/projects/종합/Replus.md",
+    "Company/projects/종합/ddmsfcenter.md",
+    "Company/projects/종합/Lumino.md",
+    "Company/code review/FE/240715.md",
+    "Company/code review/BE/240229.md",
+    "Articles/Learn in Public.md",
+    "Excalidraw",
+    "Untitled.canvas",
+    "의식적인 연습",
+    "Company/projects/종합/Micepec.md",
+    "Company/projects/종합",
+    "Company/projects/villeroy/Import Export Scope Issue.md",
+    "Company/projects/villeroy/Filtering Key.md",
+    "Company/projects/villeroy/Dist 파일로 로컬에서 배포 파일 확인.md",
+    "Company/projects/railymall/coupon/플랫폼 발급 및 카테고리.canvas",
+    "Company/projects/railymall/coupon/쿠폰 플랫폼.md",
     "Company/projects/railymall/coupon",
+    "Company/projects/itgo/TIP.md",
+    "Company/projects/daehan/배송상품",
+    "Company/projects/daehan/biz/기기 로그인 관리.md",
     "Company/projects/daehan/biz",
+    "Company/projects/daehan/TIP.md",
+    "mongodb/MongoDB AI seminar(RAG).md",
+    "Company/projects/daehan/giftcard/CP 금액 한도 이슈 대응.md",
+    "mongodb",
+    "Company/projects/Untitled.md",
+    "Company/projects/villeroy",
+    "Company/projects/lumino/Untitled.canvas",
+    "Company/projects/lumino",
+    "Company/projects/itgo",
+    "Company/projects/railymall/request/Untitled.canvas",
     "Company/projects/railymall/cancel/process.canvas",
     "Company/projects/railymall/alarm/Untitled.canvas",
-    "Company/projects/villeroy",
-    "Company/projects/daehan/giftcard/Untitled",
-    "Company/projects/daehan/giftcard",
-    "Company/projects/lumino",
-    "Company/projects/daehan/nanuripin",
-    "Pasted image 20240307101144.png"
+    "Company/projects/railymall/follow/Untitled.canvas",
+    "Company/projects/railymall/join/Untitled.canvas",
+    "Company/projects/railymall/process.canvas"
   ]
 }
